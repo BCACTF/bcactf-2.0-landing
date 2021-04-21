@@ -34,9 +34,12 @@ p {
     margin-bottom: 16px;
 }
 
+.date {
+    font-weight: bold;
+}
+
 p:last-child {
     margin-bottom: 0;
-    font-weight: bold;
 }
 
 #content {
@@ -50,4 +53,14 @@ p:last-child {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+a {
+    color: #FF30FF;
+    text-shadow: 0 0 4px rgba(255, 48, 255, 0.8);
+}
+
+a:hover {
+    color: #FFFF00;
+    text-shadow: 0 0 4px rgba(255, 255, 100, 0.8);
 }
