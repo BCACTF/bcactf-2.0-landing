@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f031f;
+    background-image: radial-gradient(circle at center, #290459 0, black 100%);
+    color: #4dc4ff;
+    text-shadow: 0 0 4px #4dc4ff;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, Tinos, serif;
+}
+
+h1 {
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+h2 {
+    font-style: italic;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#content {
+    padding: 15px;
+    max-width: 640px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
