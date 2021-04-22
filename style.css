@@ -57,9 +57,14 @@ p:last-child {
     text-align: center;
 }
 
-a {
+a, mark {
     color: #FF30FF;
     text-shadow: 0 0 4px rgba(255, 48, 255, 0.8);
+}
+
+mark {
+    font-weight: bold;
+    background-color: transparent;
 }
 
 a:hover {
