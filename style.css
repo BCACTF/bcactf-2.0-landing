@@ -29,7 +29,7 @@ h2 {
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
     font-size: 32px;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
 }
 
 p {
@@ -86,6 +86,35 @@ a:hover {
 }
 
 .attribution {
-    margin-top: 24px;
+    margin-top: 28px;
     opacity: 0.6;
+}
+
+h3 {
+    margin-top: 16px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.sponsor-logos a {
+    padding: 4px 8px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.sponsor-logos a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sponsor-logos img {
+    height: 45px;
+    filter: grayscale(1) invert(1);
+    opacity: 0.6;
+    transition: filter 0.2s, opacity 0.2s;
+}
+
+.sponsor-logos a:hover img {
+    filter: none;
+    opacity: 1;
 }
