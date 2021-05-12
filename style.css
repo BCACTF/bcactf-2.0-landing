@@ -28,8 +28,8 @@ h2 {
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
-    font-size: 36px;
-    margin-bottom: 32px;
+    font-size: 32px;
+    margin-bottom: 48px;
 }
 
 p {
@@ -45,7 +45,7 @@ p:last-child {
 }
 
 #content {
-    padding: 15px;
+    padding: 32px 15px;
     max-width: 640px;
     min-height: 100vh;
     margin-left: auto;
@@ -70,4 +70,22 @@ mark {
 a:hover {
     color: #FFFF00;
     text-shadow: 0 0 4px rgba(255, 255, 100, 0.8);
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: -10000px;
+}
+
+.logo {
+    max-width: 320px;
+    margin-bottom: 24px;
+    position: relative;
+    left: 2px;
+}
+
+.attribution {
+    margin-top: 24px;
+    opacity: 0.6;
 }
